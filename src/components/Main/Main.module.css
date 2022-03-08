@@ -1,25 +1,119 @@
+/* Main Styling Using Css Modules */
+/* Universal Styles */
 main {
-	background-color: #101010;
 	padding: 1rem;
+	background-color: #101010;
 	max-width: 100vw;
-	height: 90vh;
+	min-height: 90vh;
 }
 
-h1{
+.main {
+	margin-left: 109px;
+	margin-top: 150px;
+	padding-bottom: 20rem;
+}
+
+.p {
+	color: white;
+	font-size: 2.5rem;
+	line-height: 37.5px;
+	letter-spacing: 0.03rem;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+
+h1 {
 	color: white;
 	font-size: 6rem;
 	max-width: 688px;
-	
 }
 
+.span_text {
+	background: linear-gradient(to right, #fc4f6a, #fc4f68, #f75f41);
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+
+/* Button Styles */
+.button_div {
+	display: flex;
+	max-width: 470px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.google_play,
+.apple_play {
+	display: flex;
+	background: black;
+	color: white;
+	outline: none;
+	text-align: left;
+	max-width: 200px;
+	padding: 10px;
+	min-height: 39px;
+	align-items: center;
+	cursor: pointer;
+	border-radius: 10px;
+	border: 1px solid white;
+}
+
+.h5,
+.h5_play {
+	display: flex;
+	flex-direction: column;
+	font-weight: 500;
+}
+
+.h5 {
+	letter-spacing: 0.7px;
+	font-size: 1.2rem;
+}
+
+.span {
+	background-color: #fe5c2b;
+	padding: 0.5rem 1rem;
+	border-radius: 2rem;
+	font-weight: bold;
+	font-size: 1.3rem;
+	color: white;
+}
+
+.h5_play {
+	letter-spacing: 1px;
+	font-size: 1rem;
+}
+
+.google {
+	font-size: large;
+}
+
+.app_store {
+	font-size: 2rem;
+	letter-spacing: normal;
+}
+
+/* Image Class */
+.playstoreImg {
+	max-width: 30px;
+}
+
+.apple {
+	max-width: 40px;
+	height: 30px;
+}
+
+/* Search Input styles */
 .container {
 	position: relative;
-	border: 3px solid orange;
+	border: 1px solid #c8c7c7;
 	height: 50px;
 	overflow: hidden;
 	margin-bottom: 1rem;
+	margin-top: 8rem;
 	background-color: white;
 	max-width: 500px;
+	border-radius: 50px;
 }
 
 .text_input {
@@ -45,14 +139,10 @@ h1{
 	top: 0;
 	margin: 0;
 	padding: 0;
-	background: orange;
+	background: #ff0068;
 	color: white;
 	border: none;
 	width: 30%;
-	font-weight: bold;
-}
-
-.btn:hover {
-	color: black;
 	cursor: pointer;
+	font-weight: bold;
 }
