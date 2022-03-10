@@ -5,12 +5,29 @@ main {
 	background-color: #101010;
 	max-width: 100vw;
 	min-height: 90vh;
+	display: flex;
+	justify-content: space-between;
+}
+
+.imgContainer {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+	position: relative;
+}
+
+.main_image {
+	position: absolute;
+	right: 0;
+	margin-top: -10px;
+	height: 100%;
+	
 }
 
 .main {
 	margin-left: 109px;
 	margin-top: 150px;
-	padding-bottom: 20rem;
+	padding-bottom: 10rem;
 }
 
 .p {

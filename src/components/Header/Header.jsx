@@ -1,5 +1,6 @@
 import React from 'react';
-import styles from'./Header.module.css';
+import styles from './Header.module.css';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
 	return (
@@ -7,16 +8,24 @@ const Header = () => {
 			<header>
 				<nav>
 					<div>
-						<img className={styles.img} src="/images/Haggle real logo 10.png" alt="" />
+						<img
+							className={styles.img}
+							src="/images/Haggle real logo 10.png"
+							alt=""
+						/>
 					</div>
 
 					<div className={styles.navbar__links}>
 						<ul>
 							<li>
-								<button>Buy</button>
+								<Link to="/" exact>
+									<button>Buy</button>
+								</Link>
 							</li>
 							<li>
-								<button>Sell</button>
+								<Link to="/sell" exact>
+									<button>Sell</button>
+								</Link>
 							</li>
 							<li>
 								<button href="#">

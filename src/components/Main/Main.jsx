@@ -45,6 +45,9 @@ const Main = () => {
 					<button className={styles.btn}>Join Waitlist</button>
 				</div>
 			</div>
+			<div classname={styles.imgContainer}>
+				<img src="/images/BannerCurves.png" alt="" className={styles.main_image}/>
+			</div>
 		</main>
 	);
 };
